@@ -1,0 +1,28 @@
+<!-- Author: Grant Duchars -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edit Recipes</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css"
+    />
+  </head>
+  <body>
+    <h1>Create or Update a Recipe</h1>
+
+    <form action="addRecipe.php" method="post">
+      <lable for="recipe_name">Recipe Name</lable>
+      <input type="text" name="recipe_name" id="recipe_name" /> <br />
+
+      <lable for="ingredient">Ingredient</lable>
+      <input type="text" name="ingredient" id="ingredient" /> <br />
+
+      <lable for="recipe_name">Quantity</lable>
+      <input type="text" name="quantity" id="quantity" /> <br />
+
+      <button>Create/Update Recipe</button>
+    </form>
+  </body>
+</html>
